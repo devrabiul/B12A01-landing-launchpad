@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --rs-primary-font: "Raleway", sans-serif;
+    --rs-secondary-font: "Inter", sans-serif;
+
+    --rs-primary-color: #4E47FF;
+    --rs-primary-color-rgb: 78, 71, 255;
+    
+    --rs-primary-text-color: #252432;
+    --rs-primary-text-color-rgb: 78, 71, 255;
+    
+    --rs-primary-btn-bg-color: #4E47FF;
+    --rs-primary-btn-text-color: #FFFFFF;
+
+    --rs-primary-btn-bg-hover-color: #ff374b;
+}
+
+body {
+    font-family: var(--rs-primary-font);
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.rs-primary-button {
+    background-color: var(--rs-primary-btn-bg-color);
+    color: var(--rs-primary-btn-text-color);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 36px;
+    width: max-content;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.rs-primary-button:hover {
+    background-color: var(--rs-primary-btn-bg-hover-color);
+}
+
+.rs-primary-button span {
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 25%));
+}
