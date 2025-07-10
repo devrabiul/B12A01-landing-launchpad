@@ -37,7 +37,7 @@ body {
     color: var(--rs-primary-btn-text-color);
     font-size: 1rem;
     font-weight: bold;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     padding: 12px 36px;
     width: max-content;
@@ -80,6 +80,14 @@ body {
 
 .flex-column {
     flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
 }
 
 .gap-0-5 {

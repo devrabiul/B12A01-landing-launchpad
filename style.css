@@ -1,5 +1,4 @@
 header {
-    /* min-height: 90vh; */
     background-image: url('./Assets/Hero-bg.png');
 }
 
@@ -173,6 +172,11 @@ header nav .logo-area {
     align-items: center;
     justify-content: space-between;
     gap: 115px;
+    flex-wrap: wrap;
+}
+
+.get-touch-column {
+    width: calc(50% - 120px);
 }
 
 .get-touch-section h4 {
@@ -200,8 +204,7 @@ header nav .logo-area {
 .get-touch-section .input-group textarea {
     font-size: 20px;
     max-height: 100px;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 100%;
     font-family: var(--rs-secondary-font);
     color: rgba(0, 0, 0, 50%);
     border-radius: 10px;
