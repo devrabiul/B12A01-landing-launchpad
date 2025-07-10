@@ -242,6 +242,6 @@
 
 @media (max-width: 1399.98px) {
     .container {
-        max-width: calc(100% - 40px);
+        max-width: calc(100% - 180px);
     }
 }
