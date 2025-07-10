@@ -77,3 +77,58 @@ header nav .logo-area {
     font-family: var(--rs-secondary-font);
     text-align: center;
 }
+
+.user-feedback-section h4 {
+    margin-bottom: 50px;
+}
+
+.user-feedback-item-box {
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 50%);
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.user-feedback-item-box .review-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.user-feedback-item-box .item-title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--rs-secondary-font);
+}
+
+.user-feedback-item-box .item-text {
+    font-size: 16px;
+}
+
+.user-feedback-item-box .avatar-section {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.user-feedback-item-box .avatar-section img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-feedback-item-box .avatar-text h6 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: .25rem;
+}
+
+.user-feedback-item-box .avatar-text p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #B3B3B3;
+}
