@@ -224,3 +224,46 @@ header nav .logo-area {
 .get-touch-section button {
     padding: 20px 110px;
 }
+
+footer {
+    background-color: #FFFFFF;
+}
+
+footer .footer-content {
+    padding: 105px 0;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: var(--rs-secondary-font);
+}
+
+footer .footer-logo {
+    font-size: 100px;
+    font-family: var(--rs-secondary-font);
+    color: var(--rs-primary-color);
+    font-weight: 900;
+    letter-spacing: .15rem;
+    text-align: center;
+    line-height: 1;
+}
+
+footer .footer-content p {
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--rs-secondary-font);
+    color: #8987A1;
+}
+
+footer .footer-content ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 48px;
+}
+
+footer .footer-content ul li a {
+    text-decoration: none;
+    color: #8987A1;
+}
