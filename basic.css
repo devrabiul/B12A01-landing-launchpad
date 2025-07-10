@@ -113,3 +113,8 @@ body {
     font-weight: bold;
     font-family: var(--rs-primary-font);
 }
+
+.section-divider {
+    width: 100%;
+    height: 150px;
+}

@@ -36,10 +36,6 @@ header nav .logo-area {
     color: var(--rs-primary-text-color);
 }
 
-.action-section {
-    margin: 116px auto;    
-}
-
 .action-section .left-side {
     display: flex;
     flex-direction: column;
@@ -56,4 +52,28 @@ header nav .logo-area {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.productive-section {
+    background-color: rgba(var(--rs-primary-color-rgb), 10%);
+    border-radius: 24px;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.productive-section .productive-item-box .item-title {
+    color: rgba(var(--rs-primary-color-rgb), 1);
+    font-size: 80px;
+    font-weight: bold;
+    font-family: var(--rs-secondary-font);
+}
+
+.productive-section .productive-item-box .item-text {
+    color: rgba(0, 0, 0, 50%);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--rs-secondary-font);
+    text-align: center;
 }
